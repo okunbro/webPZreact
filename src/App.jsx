@@ -6,8 +6,7 @@ const initialTasks = [
   { id: 2, title: 'Framework: React' },
   { id: 3, title: 'Variant: Javascript + React compiler' },
 ]
-// Я не знав чи буде достатньо простого виведення константи, 
-// тому додав функціонал щоб список був рбочим
+
 function App() {
   const [tasks, setTasks] = useState(initialTasks)
   const [newTaskTitle, setNewTaskTitle] = useState('')
